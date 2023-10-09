@@ -1,0 +1,152 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: inline;
+    margin-left: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    background-color: rgb(25, 24, 24);
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 120px;
+    border: none;
+    margin-top: 10px;
+}
+
+.Signin {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 110px;
+    margin-left: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.language,
+.Signin,
+.getstarted:hover {
+    cursor: pointer;
+}
+
+.welcome {
+    display: inline-block;
+    font-size: 40px;
+    font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.one {
+    margin-top: 5%;
+    font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    padding: 13px;
+    max-width: fit-content;
+    font-size: 17px;
+}
+
+.getstarted {
+    background-color: red;
+    color: white;
+    padding: 13px;
+    max-width: fit-content;
+    font-size: 17px;
+    margin-left: 4px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.three ul,
+li {
+    display: inline;
+}
+
+.three .box1 .p1 {
+    font-size: 18px;
+}
+
+.three .box1 .p2 img {
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+
+.three .box1,
+.box2 {
+    display: inline-block;
+    max-width: fit-content;
+}
+
+.three .box2 p {
+    font-size: 18px;
+}
+
+.three .box1,
+.box2 {
+    margin-left: 18%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    background-color: white;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+
+.three {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.movies {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-color: rgb(101, 99, 99);
+    background-blend-mode: multiply;
+}
+
+.color {
+    color: white;
+}
+
+.three .box1 .p2 :hover {
+    cursor: pointer;
+}
+
+img:hover {
+    cursor: pointer;
+}
