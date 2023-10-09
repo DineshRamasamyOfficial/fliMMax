@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movies {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    margin: 17px;
+}
+
+.image-wrapper {
+    margin: 0px;
+    padding: 0;
+    height: 12vw;
+}
+
+.image-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.watch-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button-color {
+    background-color: red;
+    border: none;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.rights {
+    background-color: black;
+    color: white;
+}
