@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fliMMax- Watch Movies Online</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <span class="navbar-brand">fliMMax🎥</span>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Movies</a></li>
+                            <li><a class="dropdown-item" href="#">Web series</a></li>
+                            <li><a class="dropdown-item" href="#">Cartoons</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" id="searchbtn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mycarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="imgcontainer" data-bs-interval="9000">
+                <img src="turtles.jpg" class="d-block w-100" alt="turtles">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Teenage Mutant Ninja Turtles</h2>
+                    <p>After years of being sheltered from the human world, the Turtle brothers set out to win the
+                        hearts of New Yorkers and be accepted as normal teenagers. Their new friend, April O'Neil, helps
+                        them take on a mysterious crime syndicate, but they soon get in over their heads when an army of
+                        mutants is unleashed upon them.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" id="imgcontainer" data-bs-interval="9000">
+                <img src="justice league.jpg" class="d-block w-100" alt="justice League">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Justice League</h2>
+                    <p>Steppenwolf and his Parademons return after eons to capture Earth. However, Batman seeks the help
+                        of Wonder Woman to recruit and assemble Flash, Cyborg and Aquaman to fight the powerful new
+                        enemy.</p>
+                </div>
+            </div>
+            <div class="carousel-item" id="imgcontainer" data-bs-interval="9000">
+                <img src="civil-war.jpg" class="d-block w-100" alt="civil-war">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Captain America: Civil War</h2>
+                    <p>Friction arises between the Avengers when one group supports the government's decision to
+                        implement a law to control their powers while the other opposes it.</p>
+                </div>
+            </div>
+            <div class="carousel-item" id="imgcontainer" data-bs-interval="9000">
+                <img src="Beauty and Beast.jpg" class="d-block w-100" alt="Beauty and Beast">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Beauty and the Beast</h2>
+                    <p>Belle embarks on a journey to save her father from a creature that has locked him in his dungeon.
+                        Eventually, she learns that the beast is an enchanted prince who has been cursed.</p>
+                </div>
+            </div>
+            <div class="carousel-item" id="imgcontainer" data-bs-interval="9000">
+                <img src="jungle.jpg" class="d-block w-100" alt="jungle">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Jungle</h2>
+                    <p>Yossi gets captivated by a mysterious guide's stories and plans to follow him into the Amazon
+                        jungle with his friends. Their journey turns into an ordeal as the jungle is not an easy place
+                        to be in.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <center>
+        <h2 class="heading">Watch Your Favourite Movies</h2>
+    </center>
+
+    <!--action and adventure-->
+    <div class="movie-style">
+        <p class="movie-type">Action and adventure movies &nbsp;&nbsp;<a class="seemore"
+                href="C:\Users\DINESH RAMASAMY\OneDrive\Desktop\fliMMax\Seemore\adventure.html">See more></a>
+        </p>
+    </div>
+    <div id="carouselExample" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/ac63679c33fafc6d4c2219ba18b74a277fd552f2485b50e5554c5a90fff70d9b.jpg"
+                                class="card-img-top" alt="1">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/6237/1296237-h-5662015305e4"
+                                class="card-img-top" alt="2">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://www.bollywoodhungama.com/wp-content/uploads/2022/04/K.G.F-%E2%80%93-Chapter-2-15.jpg"
+                                class="card-img-top" alt="3">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images5.alphacoders.com/131/1319750.jpeg" class="card-img-top" alt="4">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://wallpaperaccess.com/full/7892075.jpg" class="card-img-top" alt="5">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4361/584361-h"
+                                class="card-img-top" alt="6">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f5ae3ae5cca4c56b08cd100532e4076a5f005ef13004a92988eef82942be0b61._UY500_UX667_RI_TTW_.jpg"
+                                class="card-img-top" alt="7">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images.moneycontrol.com/static-mcnews/2023/01/PATHAAN-POSTER.jpg?impolicy=website&width=1600&height=900"
+                                class="card-img-top" alt="8">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" id="first" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" id="second" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+
+    <!--Romantic and Comedy-->
+    <div>
+        <p class="movie-type">Romantic and Comedy movies &nbsp;&nbsp;<a class="seemore"
+                href="C:\Users\DINESH RAMASAMY\OneDrive\Desktop\fliMMax\Seemore\comedy.html">See more></a></p>
+    </div>
+    <div id="carouselExample1" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/cb63b2bf1e1e4df8aeb7912fb5029a8a8e82a36e0c28f512199975f7a62ae112.jpg"
+                                class="card-img-top" alt="1">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202103/Doctor_release_postponed_1200x768.jpeg?size=690:388"
+                                class="card-img-top" alt="2">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://thefederal.com/file/2023/07/LGM-new.jpg" class="card-img-top" alt="3">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/11/love-today-1668080734.jpg"
+                                class="card-img-top" alt="4">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://www.filmibeat.com/img/2023/07/maaveeran16-1689313997.jpg"
+                                class="card-img-top" alt="5">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/092bdb20ca04e5e9e9c318ea7b4902736e621b72a4cb385c490134735449ef72._UY500_UX667_RI_TTW_.jpg"
+                                class="card-img-top" alt="6">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://i.ytimg.com/vi/StKZ06tvPrY/maxresdefault.jpg" class="card-img-top"
+                                alt="7">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://flxt.tmsimg.com/assets/p14472997_v_h10_aa.jpg" class="card-img-top"
+                                alt="8">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" id="first" type="button" data-bs-target="#carouselExample1"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" id="second" type="button" data-bs-target="#carouselExample1"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+
+    <!--Horror and thriller-->
+    <div>
+        <p class="movie-type">Horror and thriller movies &nbsp;&nbsp;<a class="seemore"
+                href="C:\Users\DINESH RAMASAMY\OneDrive\Desktop\fliMMax\Seemore\horror.html">See more></a></p>
+    </div>
+    <div id="carouselExample2" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/fca6a1ab88d378539269c9dfe3b8aca2b543f4e0cd900cbf7e07161714e655ab._UY500_UX667_RI_TTW_.jpg"
+                                class="card-img-top" alt="1">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7G3UzDIg9UzlmxviGPzvgzn9F_2IJN6JIfQ&usqp=CAU"
+                                class="card-img-top" alt="2">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://www.heavenofhorror.com/wp-content/uploads/2023/07/asvins-2023-netflix-review.jpg"
+                                class="card-img-top" alt="3">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images.ottplay.com/images/99c84da73dc1b8bb0c13badc4739a980.jpg"
+                                class="card-img-top" alt="4">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/493936032cdecbf09a5a562b52bfd323af12f5abc88d468b4e4bda0092aad07d._UR1920,1080_.jpg"
+                                class="card-img-top" alt="5">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCvox2hmUd3OoXfDoh5_CIREkZg721qBjtA&usqp=CAU"
+                                class="card-img-top" alt="6">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://wallpapers.com/images/hd/insidious-the-last-key-7fmqovdph2hbg8bd.jpg"
+                                class="card-img-top" alt="7">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELRaBr3fG0TP3-XTfuJUVxZuAaQ5aGceJrTfX3KGJ1j9ahnbrEiL25P2iUkyV7YWXgn4&usqp=CAU"
+                                class="card-img-top" alt="8">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" id="first" type="button" data-bs-target="#carouselExample2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" id="second" type="button" data-bs-target="#carouselExample2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+
+    <!--Sci-fi and cartoons-->
+    <div>
+        <p class="movie-type">Sci-fi and cartoons movies &nbsp;&nbsp;<a class="seemore"
+                href="C:\Users\DINESH RAMASAMY\OneDrive\Desktop\fliMMax\Seemore\cartoons.html">See more></a></p>
+    </div>
+    <div id="carouselExample3" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card m" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://ntvb.tmsimg.com/assets/p13499680_v_h10_ak.jpg?w=1280&h=720"
+                                class="card-img-top" alt="1">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://wallpapers.com/images/featured/the-smurfs-ieziwm4qinkpplk9.jpg"
+                                class="card-img-top" alt="2">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://images4.alphacoders.com/130/thumb-1920-1304974.jpeg" class="card-img-top"
+                                alt="3">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/6106/686106-h"
+                                class="card-img-top" alt="4">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/jurassic-world-dominion/images/regions/us/header.jpg"
+                                class="card-img-top" alt="5">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://flxt.tmsimg.com/assets/p195303_b_h8_ar.jpg" class="card-img-top" alt="6">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://i.ytimg.com/vi/BiuFY_nGaN8/maxresdefault.jpg" class="card-img-top"
+                                alt="7">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="https://i.ytimg.com/vi/dvUNz9AJPXM/maxresdefault.jpg" class="card-img-top"
+                                alt="8">
+                        </div>
+                        <div class="card-body">
+                            <div class="watch-button">
+                                <a href="#" class="btn btn-primary" id="button-color">Watch now</a>
+                                <a href="#" class="btn btn-primary" id="button-color">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" id="first" type="button" data-bs-target="#carouselExample3"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" id="second" type="button" data-bs-target="#carouselExample3"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <div class="rights">
+        <br><br>
+        <center>
+            <h6>© 2023 fliMMax All rights reserved.</h6>
+        </center>
+        <br>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

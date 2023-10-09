@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#searchbtn {
+    border-color: rgb(117, 116, 116);
+    color: rgb(117, 116, 116);
+}
+
+#searchbtn:hover {
+    background-color: red;
+    color: white;
+}
+
+#imgcontainer img {
+    height: 600px;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.card {
+    margin: 17px;
+}
+
+
+.image-wrapper {
+    margin: 0px;
+    padding: 0;
+    height: 12vw;
+}
+
+.image-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#first,
+#second {
+    background-color: rgb(132, 129, 129);
+    height: 7vh;
+    width: 7vh;
+    top: 45%;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.watch-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button-color {
+    background-color: red;
+    border: none;
+}
+
+.movie-type {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.carousel-inner,
+.card-body {
+    background-color: black;
+}
+
+.rights {
+    background-color: black;
+    color: white;
+}
+
+.seemore {
+    color: black;
+}
